@@ -2,7 +2,7 @@
   "name": "duckcode",
   "displayName": "duckcode",
   "description": "a duck that reminds you when to take a break from coding",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "engines": {
     "vscode": "^1.101.0"
   },
@@ -12,12 +12,25 @@
   "activationEvents": [],
   "browser": "./dist/web/extension.js",
   "contributes": {
-    "commands": [
-      {
-        "command": "duckcode.helloWorld",
-        "title": "Hello World"
-      }
-    ]
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "sleepyDuck",
+          "icon": "img/icon.svg",
+          "title": "Duck"
+        }
+      ]
+    },
+    "views": {
+      "sleepyDuck": [
+        {
+          "icon": "img/icon.svg",
+          "type": "webview",
+          "id": "sleepyDuck.view",
+          "name": "Sleepy Duck"
+        }
+      ]
+    }
   },
   "scripts": {
     "test": "vscode-test-web --browserType=chromium --extensionDevelopmentPath=. --extensionTestsPath=dist/web/test/suite/index.js",

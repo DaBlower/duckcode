@@ -16,7 +16,7 @@
       "activitybar": [
         {
           "id": "sleepyDuck",
-          "icon": "img/icon.svg",
+          "icon": "img/icon.png",
           "title": "Duck"
         }
       ]
@@ -24,7 +24,7 @@
     "views": {
       "sleepyDuck": [
         {
-          "icon": "img/icon.svg",
+          "icon": "img/icon.png",
           "type": "webview",
           "id": "sleepyDuck.view",
           "name": "Sleepy Duck"

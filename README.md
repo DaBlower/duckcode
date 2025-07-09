@@ -9,15 +9,13 @@ This extension adds a duck to your sidebar that slowly falls asleep, reminding y
 - When you have finished, click it again to start coding
 - Supports both light and dark themes 
 
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
 ## Release Notes
 ### 0.1.0
 
 Initial release of duckcode
 
+### 0.1.1
 
+Fixed readme
 
 ---

@@ -1,6 +1,8 @@
 {
-  "name": "duckcode",
-  "displayName": "duckcode",
+  "name": "sleepyDuck",
+  "publisher": "dablower",
+  "icon": "img/extIcon.jpeg",
+  "displayName": "Sleepy duck",
   "description": "a duck that reminds you when to take a break from coding",
   "version": "0.1.0",
   "engines": {

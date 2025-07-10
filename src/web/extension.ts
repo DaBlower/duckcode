@@ -17,10 +17,10 @@ export function activate(context: vscode.ExtensionContext) {
 		constructor(private readonly context: vscode.ExtensionContext) {}
 
 		resolveWebviewView(webviewView: vscode.WebviewView) {
-		const webview = webviewView.webview;
-		webview.options = {
-		enableScripts: true,
-		localResourceRoots: [vscode.Uri.joinPath(this.context.extensionUri, 'img')]
+			const webview = webviewView.webview;
+			webview.options = {
+			enableScripts: true,
+			localResourceRoots: [vscode.Uri.joinPath(this.context.extensionUri, 'img')]
 		};
 		
 		let sleepLevel = 0; // 0 = awake, 1 = sleepy, 2 = asleep + waiting to start break, 3 = on break

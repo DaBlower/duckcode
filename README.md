@@ -18,4 +18,6 @@ Initial release of duckcode
 
 Fixed readme
 
+### 0.1.2
+Added repository and fixed name in package.json, which might have caused some errors
 ---

@@ -68,6 +68,9 @@ export function activate(context: vscode.ExtensionContext) {
 
 
 function getDuckHtml(imageUrl: string, level: number): string {
+	if (!imageUrl) {
+		console.error('Image failed to load:', imageUrl);
+	}
 	return ` 
 		<html>
 			<body style="display:flex;justify-content:center;align-items:center;height:100vh;background-color: var(--vscode-editor-background)">

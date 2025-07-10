@@ -1,9 +1,15 @@
 # Change Log
 
-All notable changes to the "duckcode" extension will be documented in this file.
+## 0.1.0
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+Initial release of sleepyduck
 
-## [Unreleased]
+## 0.1.1
 
-- Initial release
+Fixed readme
+
+## 0.1.2
+Added repository and fixed name in package.json, which might have caused some errors
+
+## 0.1.3
+Updated dependencies
